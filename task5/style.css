@@ -1,0 +1,7 @@
+input[type=number]{
+    width: 50px;
+}
+.students{
+    display: flex;
+    flex-direction: row;
+}

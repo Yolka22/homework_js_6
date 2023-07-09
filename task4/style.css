@@ -1,0 +1,48 @@
+main{
+    background-color: bisque;
+    display: flex;
+    justify-content: left;
+}
+.book{
+    
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 20px;
+    width: 150px;
+}
+
+.book img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.book:hover{
+    box-shadow: 10px 5px 5px orange;
+}
+
+.book:active{
+    box-shadow: 15px 8px 8px green;
+}
+.price{
+    text-align: right;
+}
+
+.price::after{
+    content: "$"
+}
+
+#offer{
+    height: 500px;
+    margin: 20px;
+    background-color: bisque;
+    padding: 10px;
+    border: 1px solid black;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+#offer *{
+    width: 100%;
+}

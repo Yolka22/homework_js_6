@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="book">
+        <img src="images/Ethan_Brown.jpg">
+        <h4 class="title">
+          Lernining JavaScript: JavaScript 
+          Essentials for Modern Application
+          Development
+        </h4>
+        <label class="author">Ethan Brown</label>
+        <p class="price">16</p>
+      </div>
+      <div class="book">
+        <div>
+            <img src="images/Kyle_Simpson.jpg">
+        </div>
+        
+        <h4 class="title">
+          You Don't Know JS:
+          Scope & Clousers
+        </h4>
+        <label class="author">Kyle Simpson</label>
+        <p class="price">20</p>
+      </div>
+      <div class="book">
+        <img src="images/Jon_Duckett.jpg">
+        <h4 class="title">
+            Javascrtpt and JQuery:
+            Interactive Front-End
+            web Development
+        </h4>
+        <label class="author">Jon Duckett</label>
+        <p class="price">22</p>
+      </div>
+      <form name="offer" id="offer">
+        <label for="title">Book
+            <p name="title"></p>
+        </label>
+        <label for="quantity">quantity
+            <input name="quantity" type="text">
+        </label>
+        <label for="name">name
+            <input name="name" type="text">
+        </label>
+        <label for="adress">Delivery adress
+            <textarea name="adress" id="adress" cols="30" rows="4"></textarea>
+        </label>
+        <label for="date">Delivery date
+            <input name="date" type="text">
+        </label>
+        <label for="comment">Comment
+            <textarea name="comment" id="comment" cols="30" rows="4"></textarea>
+        </label>
+        <input type="button" value="Buy" id="buy-btn">
+      </form>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

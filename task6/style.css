@@ -1,0 +1,8 @@
+#dispaly-tickets{
+    display: flex;
+    flex-direction: row;
+}
+
+div input[type=checkbox]{
+    display: block;
+}

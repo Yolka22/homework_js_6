@@ -1,0 +1,12 @@
+main{
+    width: 400px;
+}
+form textarea{
+    width: 100%;
+}
+nav{
+    text-align: center;
+}
+main button{
+    width: 100%;
+}
